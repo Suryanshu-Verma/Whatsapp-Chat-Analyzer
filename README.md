@@ -2,7 +2,7 @@
 
 ![Banner](Orange And Blue Modern Professional Construction Banner Design.png)
 
-A Streamlit-based web application designed to analyze WhatsApp chats, including both group and personal 1v1 conversations. Easily visualize and manage your WhatsApp activity. You can explore the app here -> [Website](#)
+A Streamlit-based web application designed to analyze WhatsApp chats, including both group and personal 1v1 conversations. Easily visualize and manage your WhatsApp activity.
 
 ## How to Use
 
@@ -14,7 +14,7 @@ A Streamlit-based web application designed to analyze WhatsApp chats, including 
 5. Your chat is now exported! You can either share it or store it on your system to use in the web app.
 
 ### Using the WhatsApp Chat Analyzer:
-1. Open the web app using the [Link](#).
+1. Open the web app using the [Link](https://whatsapp-chat-analyzer-webapp.streamlit.app/).
 2. Upload the exported chat file.
 3. Choose the type of analysis you want - **Overall** or **Personal User-based**.
 4. Click on **Show Analysis**.
