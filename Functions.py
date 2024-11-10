@@ -45,7 +45,7 @@ def most_bust_users(df):
 #%%
 def create_word_cloud(selected_user, df):
     # Load stop words
-    with open('D:\\VSCODE\\DA_PROJECT\\stop_hinglish.txt', 'r') as f:
+    with open('stop_hinglish.txt', 'r') as f:
         stopword = f.read().splitlines()
 
     # Filter messages for the selected user if not 'Overall'
