@@ -77,7 +77,7 @@ def create_word_cloud(selected_user, df):
 #%%
 # Function most_common_words
 def most_common_words(selected_user,df):
-    f = open('D:\\VSCODE\\DA_PROJECT\\stop_hinglish.txt','r')
+    f = open('stop_hinglish.txt','r')
     stopword = f.read()
     if selected_user != 'Overall':
         df = df[df['Users']== selected_user]
