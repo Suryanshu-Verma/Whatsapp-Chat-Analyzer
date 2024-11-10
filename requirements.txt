@@ -8,3 +8,4 @@ emoji
 IPython
 networkx
 sympy
+plotly
