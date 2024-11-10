@@ -7,3 +7,4 @@ pandas
 emoji
 IPython
 networkx
+sympy
