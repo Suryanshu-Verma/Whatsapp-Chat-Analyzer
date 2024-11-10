@@ -53,7 +53,7 @@ def preprocess(uploaded_file):
 
     # Create period based on hour
     period = []
-    for hour in raw_df[['Day', 'Hour']].['Hour']:
+    for hour in raw_df[['Day', 'Hour']]['Hour']:
         if hour == 23:
             period.append(str(hour) + '-' + str('00'))
         elif hour == 0:
