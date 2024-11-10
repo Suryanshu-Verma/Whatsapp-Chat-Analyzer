@@ -1,4 +1,6 @@
 #%%
+from IPython.core.pylabtools import figsize
+import IPython 
 import streamlit as st
 from IPython.core.pylabtools import figsize
 from matplotlib.pyplot import tight_layout
