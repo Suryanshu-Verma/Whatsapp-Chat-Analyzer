@@ -7,7 +7,7 @@ A Streamlit-based web application designed to analyze WhatsApp chats, including 
 ## How to Use
 
 ### Exporting Chats from WhatsApp:
-1. Open WhatsApp and navigate to the group or personal chat you wish to visualize.
+1. Open WhatsApp and navigate to the group or personal chat you wish to visualize. 
 2. In the top-right corner, click on the three dots.
 3. Select **More Options**.
 4. Click on **Export Chat** and choose **Without Media**.
@@ -26,6 +26,7 @@ A Streamlit-based web application designed to analyze WhatsApp chats, including 
 - Pandas
 - Matplotlib
 - Seaborn
+- Plotly
 
 ## Introduction
 
