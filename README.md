@@ -1,6 +1,6 @@
 # WhatsApp Chat Analyzer WebApp
 
-![Banner](Orange And Blue Modern Professional Construction Banner Design.png)
+![Banner](banner.png)
 
 A Streamlit-based web application designed to analyze WhatsApp chats, including both group and personal 1v1 conversations. Easily visualize and manage your WhatsApp activity.
 
