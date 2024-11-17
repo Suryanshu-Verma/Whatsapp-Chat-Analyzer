@@ -18,7 +18,20 @@ import plotly as pl
 #%%
 
 st.sidebar.title("Whatsapp Chat Analyzer")
-upload_file = st.sidebar.file_uploader("Choose A File")
+upload_file = st.sidebar.file_uploader(""" How TO USE :\n
+Exporting Chats from WhatsApp:\n
+1.Open WhatsApp and navigate to the group or personal chat you wish to visualize.\n
+2.In the top-right corner, click on the three dots.\n
+3.Select More Options.\n
+4.Click on Export Chat and choose Without Media.\n
+5.Your chat is now exported! You can either share it or store it on your system to use in the web app.\n
+6.Using the WhatsApp Chat Analyzer:\n
+7.Open the web app.\n
+8.Upload the exported chat file.\n
+9.Choose the type of analysis you want - Overall or Personal User-based.\n
+10.Click on Show Analysis.\n
+11.View the various statistics of your WhatsApp chat. \n
+12.Choose A File To Start""")
 if upload_file is not None:
     bytes_data = upload_file.getvalue()
     data = bytes_data.decode("utf-8")
