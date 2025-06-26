@@ -13,7 +13,7 @@ def preprocess(raw_data):
     # Creating A DataFrame
     raw_df = pd.DataFrame({'User_Message': chat, 'Message_Date': dates})
     # Insert a space before 'AM' or 'PM' and remove the narrow no-break space (\u202f)
-    raw_df['Message_Date'] = raw_df['Message_Date'].astype(str).str.replace(r'(\d)(AM|PM)', r'\1 \2', regex=True).str.replace('\u202f', '')
+    raw_df['Message_Date'] = raw_df['Message_Date'].str.replace(r'(\d)(AM|PM)', r'\1 \2', regex=True).str.replace('\u202f', '')
 
     # Parse 'Message_Date' with the corrected format
     raw_df['Message_Date'] = pd.to_datetime(raw_df['Message_Date'], format='mixed')
