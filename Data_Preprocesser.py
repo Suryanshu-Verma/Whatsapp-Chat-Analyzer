@@ -4,7 +4,7 @@ import re
 # Data
 def preprocess(raw_data):
 
-    pattern = r'\d{1,2}/\d{1,2}/\d{2,4},\s\d{1,2}:\d{2}\s[APM]{2}'
+    pattern = r'\d{1,2}/\d{1,2}/\d{2,4},\s\d{1,2}:\d{2}\s[ap]m'
     raw_chat = re.split(pattern, raw_data)[1:]
     # Extracting the Cleaned Chat
     pattern1 = r"(^\s*-+\s*|~\s*|'|\u202f)"
