@@ -94,10 +94,11 @@ if upload_file is not None:
         fig_dt.update_layout(xaxis_tickangle=-90)
 
         # Show the plot
+        st.title('Activity Map')
         st.plotly_chart(fig_dt)
 
         ## Activity Map
-        st.title('Activity Map')
+        
         col1, col2 = st.columns(2)
 
         with col1:
