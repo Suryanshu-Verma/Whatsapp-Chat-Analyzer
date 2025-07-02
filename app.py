@@ -168,6 +168,7 @@ if upload_file is not None:
             )
 
             # Show the interactive Plotly chart
+            st.header("Weekly Activity Map")
             st.plotly_chart(figMAU, use_container_width=True)
 
             # Display the dataframe of the active users in the other column
